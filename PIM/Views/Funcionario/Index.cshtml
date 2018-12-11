@@ -1,0 +1,45 @@
+﻿@model IEnumerable<PIM.Models.Objects.Funcionario>
+
+<h2>Consulta de Funcionários</h2>
+<p>
+    <a class="btn btn-success" href="/Funcionario/Create"><i class="fas fa-plus-circle"></i>&nbsp;&nbsp;Cadastrar</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th class="colunaBtn">Ações</th>
+            <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+        </tr>
+    </thead>
+
+    @foreach (var item in Model)
+    {
+        <thead>
+            <tr>
+                <td>
+                    <a class="btn btn-info" href="/Funcionario/Details/@item.id" title="Detalhes"><i class="fas fa-search"></i></a>
+                    <a class="btn btn-primary" href="/Funcionario/Edit/@item.id" title="Editar"><i class="fas fa-pencil-alt"></i></a>
+                    <a class="btn btn-danger" href="/Funcionario/Delete/@item.id" title="Excluir"><i class="fas fa-trash"></i></a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+            </tr>
+        </thead>
+    }
+
+</table>

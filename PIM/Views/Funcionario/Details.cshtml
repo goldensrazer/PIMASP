@@ -1,0 +1,37 @@
+﻿@model PIM.Models.Objects.Funcionario
+
+<h2>Detalhes do Funcionário</h2>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+    </dl>
+    <div class="form-group">
+        <div class="col-md-offset-1 col-md-10">
+            <a href="/Funcionario/Edit/@Model.id" class="btn btn-success">Editar</a>
+            <a href="/Funcionario" class="btn btn-primary">Voltar</a>
+        </div>
+    </div>
+</div>

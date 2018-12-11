@@ -1,0 +1,22 @@
+body{
+	background-color: rgb(29, 153, 243);
+}
+.error-template {
+	padding: 100px 15px;
+	text-align: center;
+}
+
+.error-acao {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.error-acao .btn {
+	 margin-right:10px;
+  }
+  h1,h2,.error-detalhes{
+  	color: #fff;
+  }
+  #img-404{
+  	height: 180px;
+  }

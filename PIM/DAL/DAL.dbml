@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PIM" Class="DALDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-K7O7SD3\SQLEXPRESS;Initial Catalog=PIM;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="PIMConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ATRIBUICAO" Member="ATRIBUICAOs">
+    <Type Name="ATRIBUICAO">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="ATRIBUICAO_CHAMADO" Member="CHAMADOs" ThisKey="ID" OtherKey="ATRIBUICAO" Type="CHAMADO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CHAMADO" Member="CHAMADOs">
+    <Type Name="CHAMADO">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DEPARTAMENTO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GRAU_URGENCIA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TITULO" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="DESCRICAO" Type="System.String" DbType="VarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="CLIENTE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FUNCIONARIO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ATRIBUICAO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CONCLUSAO" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="ATRIBUICAO_CHAMADO" Member="ATRIBUICAO1" ThisKey="ATRIBUICAO" OtherKey="ID" Type="ATRIBUICAO" IsForeignKey="true" />
+      <Association Name="CLIENTE_CHAMADO" Member="CLIENTE1" ThisKey="CLIENTE" OtherKey="ID" Type="CLIENTE" IsForeignKey="true" />
+      <Association Name="DEPARTAMENTO_CHAMADO" Member="DEPARTAMENTO1" ThisKey="DEPARTAMENTO" OtherKey="ID" Type="DEPARTAMENTO" IsForeignKey="true" />
+      <Association Name="FUNCIONARIO_CHAMADO" Member="FUNCIONARIO1" ThisKey="FUNCIONARIO" OtherKey="ID" Type="FUNCIONARIO" IsForeignKey="true" />
+      <Association Name="GRAU_URGENCIA_CHAMADO" Member="GRAU_URGENCIA1" ThisKey="GRAU_URGENCIA" OtherKey="ID" Type="GRAU_URGENCIA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CLIENTE" Member="CLIENTEs">
+    <Type Name="CLIENTE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="EMAIL" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="SENHA" Type="System.String" DbType="VarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="DEPARTAMENTO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="CLIENTE_CHAMADO" Member="CHAMADOs" ThisKey="ID" OtherKey="CLIENTE" Type="CHAMADO" />
+      <Association Name="DEPARTAMENTO_CLIENTE" Member="DEPARTAMENTO1" ThisKey="DEPARTAMENTO" OtherKey="ID" Type="DEPARTAMENTO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DEPARTAMENTO" Member="DEPARTAMENTOs">
+    <Type Name="DEPARTAMENTO">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SETOR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DEPARTAMENTO_CHAMADO" Member="CHAMADOs" ThisKey="ID" OtherKey="DEPARTAMENTO" Type="CHAMADO" />
+      <Association Name="DEPARTAMENTO_CLIENTE" Member="CLIENTEs" ThisKey="ID" OtherKey="DEPARTAMENTO" Type="CLIENTE" />
+      <Association Name="SETOR_DEPARTAMENTO" Member="SETOR1" ThisKey="SETOR" OtherKey="ID" Type="SETOR" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FUNCIONARIO" Member="FUNCIONARIOs">
+    <Type Name="FUNCIONARIO">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="EMAIL" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="SENHA" Type="System.String" DbType="VarChar(16) NOT NULL" CanBeNull="false" />
+      <Association Name="FUNCIONARIO_CHAMADO" Member="CHAMADOs" ThisKey="ID" OtherKey="FUNCIONARIO" Type="CHAMADO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GRAU_URGENCIA" Member="GRAU_URGENCIAs">
+    <Type Name="GRAU_URGENCIA">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="GRAU_URGENCIA_CHAMADO" Member="CHAMADOs" ThisKey="ID" OtherKey="GRAU_URGENCIA" Type="CHAMADO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SETOR" Member="SETORs">
+    <Type Name="SETOR">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="SETOR_DEPARTAMENTO" Member="DEPARTAMENTOs" ThisKey="ID" OtherKey="SETOR" Type="DEPARTAMENTO" />
+    </Type>
+  </Table>
+</Database>

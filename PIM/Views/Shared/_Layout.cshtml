@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Gerenciador De Chamados</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Gerenciador De Chamados", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Cadastros
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Setores", "Index", "Setor")</li>
+                            <li>@Html.ActionLink("Departamentos", "Index", "Departamento")</li>
+                            <li>@Html.ActionLink("Graus de Urgência", "Index", "GrauUrgencia")</li>
+                            <li>@Html.ActionLink("Atribuições", "Index", "Atribuicao")</li>
+                            <li>@Html.ActionLink("Clientes", "Index", "Cliente")</li>
+                            <li>@Html.ActionLink("Funcionarios", "Index", "Funcionario")</li>
+                        </ul>
+                    </li>
+                    <li>
+                        @Html.ActionLink("Chamados", "Index", "Chamado")
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Sobre", "Sobre", "Home")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Gerenciador De Chamados</p>
+        </footer>
+    </div>*@
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <img src="/img/logo.png" class="profile-img-card">
+                <p class="profile-name-card">@Session["usuarioLogadoNome"]</p>
+                <p id="link">
+                    <!--<a id="linkMinhaConta" class="link" href="editarPerfil.html">Minha Conta</a>-->
+                    <!--<span>&#124;</span>-->
+                    @Html.ActionLink("Fechar Sessão", "Logoff", "Acesso")
+                    <!--<a id="linhaFecharSessao" class="link" href="#">Fechar Sessão</a>-->
+                </p>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu">
+                        <i class="fas fa-desktop"></i>
+                        Painel de Controle
+                    </a>
+                </li>
+                <li>
+                    <a href="#chamadoSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-ticket-alt"></i>
+                        Chamados
+                    </a>
+                    <ul class="collapse list-unstyled" id="chamadoSubmenu">
+                        <li>
+                            @Html.ActionLink("Listar Chamados", "Index", "Chamado")
+                            <!--<a href="chamados/ChamadosAbertos.html">Chamados Abertos</a>
+                            <a href="chamados/ChamadosAtendimento.html">Chamados Em Atendimento</a>
+                            <a href="chamados/ChamadosAtribuidos.html">Chamados Atribuidos</a>
+                            <a href="chamados/ChamadosFechados.html">Chamados Fechados</a>
+                            <a href="chamados/MeusChamados.html">Meus Chamados</a>-->
+                        </li>
+                    </ul>
+                </li>
+                @if (Session["usuarioLogadoTipo"] == "f")
+                {
+                    <li>
+                        <a href="#cadastrosSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            <i class="fas fa-wrench"></i>
+                            Cadastros
+                        </a>
+                        <ul class="collapse list-unstyled" id="cadastrosSubmenu">
+                            <li>@Html.ActionLink("Setores", "Index", "Setor")</li>
+                            <li>@Html.ActionLink("Departamentos", "Index", "Departamento")</li>
+                            <li>@Html.ActionLink("Graus de Urgência", "Index", "GrauUrgencia")</li>
+                            <li>@Html.ActionLink("Atribuições", "Index", "Atribuicao")</li>
+                            <li>@Html.ActionLink("Clientes", "Index", "Cliente")</li>
+                            <li>@Html.ActionLink("Funcionarios", "Index", "Funcionario")</li>
+                        </ul>
+                    </li>
+                }
+                <!--<li>
+                    <a href="#userSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-user"></i>
+                        Usuários
+                    </a>
+                    <ul class="collapse list-unstyled" id="userSubmenu">
+                        <li>
+                            <a href="Usuarios.html">Lista de Usuários</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#funcioSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-users"></i>
+                        Funcionários
+                    </a>
+                    <ul class="collapse list-unstyled" id="funcioSubmenu">
+                        <li>
+                            <a href="Funcionarios.html">Listar Funcionários</a>
+                        </li>
+                    </ul>
+                </li>-->
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                @*<div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>*@
+                    @RenderBody()
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\ApplicationInsights.config
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\roslyn\csc.exe
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\roslyn\vbc.exe
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\roslyn\VBCSCompiler.exe
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\PIM.dll.config
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\PIM.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\PIM.pdb
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Antlr3.Runtime.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\EntityFramework.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\EntityFramework.SqlServer.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AI.Web.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Newtonsoft.Json.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Owin.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.Helpers.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.Mvc.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.Optimization.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.Razor.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.WebPages.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.WebPages.Razor.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\WebGrease.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AI.Web.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.Helpers.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.Mvc.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.Optimization.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.Razor.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.WebPages.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Web.WebPages.Razor.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Antlr3.Runtime.pdb
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Newtonsoft.Json.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\EntityFramework.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\EntityFramework.SqlServer.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\obj\Debug\PIM.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\obj\Debug\PIM.pdb
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.Logging.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.Options.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Remotion.Linq.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Collections.Immutable.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Interactive.Async.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.Logging.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.Options.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\Remotion.Linq.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Interactive.Async.xml
+C:\Users\Welison\documents\visual studio 2015\Projects\PIM.Web\PIM\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\ApplicationInsights.config
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\roslyn\csc.exe
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\roslyn\vbc.exe
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\PIM.dll.config
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\PIM.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\PIM.pdb
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Antlr3.Runtime.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\EntityFramework.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\EntityFramework.SqlServer.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AI.Web.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.Logging.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.Options.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Newtonsoft.Json.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Owin.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Remotion.Linq.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Collections.Immutable.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Interactive.Async.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.Helpers.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.Mvc.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.Optimization.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.Razor.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.WebPages.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\WebGrease.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AI.Web.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.Logging.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.Options.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Remotion.Linq.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Interactive.Async.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.Helpers.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.Mvc.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.Optimization.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.Razor.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.WebPages.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Antlr3.Runtime.pdb
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Newtonsoft.Json.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\EntityFramework.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\EntityFramework.SqlServer.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Dexter\Desktop\PIM4-master\PIM\obj\Debug\PIM.csprojResolveAssemblyReference.cache
+C:\Users\Dexter\Desktop\PIM4-master\PIM\obj\Debug\PIM.dll
+C:\Users\Dexter\Desktop\PIM4-master\PIM\obj\Debug\PIM.pdb

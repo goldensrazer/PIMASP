@@ -1,0 +1,20 @@
+#botao-enviar, #botao-voltar{
+	width: 45%;
+	height: 20%;
+}
+#botao-enviar{
+	float: left;
+	left: 10px;
+	background-color: #4CAF50;
+	border-color: #4CAF50;
+}
+#botao-enviar:hover{
+	background-color: #28a745;
+}
+#botao-voltar{
+	float: right;
+	right: 10px;
+}
+#div-card{
+	padding-bottom: 80px;
+}
